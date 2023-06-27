@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="grade.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Manrope:wght@600&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Manrope:wght@600&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>Subject Calculator</header>
+    <h1>Subject percentage Calculator by Ray</h1>
+    <div class="calculator">
+     <input type="text" id = "maths" placeholder = "Maths"><br><br>
+     <input type="text" id = "english" placeholder = "English"><br><br>
+     <input type="text" id = "kiswahili" placeholder = "Kiswahili"><br><br>
+     <input type="text" id = "physics" placeholder = "Physics"><br><br>
+     <input type="text" id = "computer" placeholder = "Computer"><br><br>
+     <input type="text" id = "chemistry" placeholder = "Chemistry"><br><br>
+     <input type="text" id = "history" placeholder = "History"><br><br>
+     <input type="text" id = "geography" placeholder = "Geography"><br><br>
+     <button onclick = "publishResult()">View your result!</button>
+    </div>
+    <div class="show-results">
+        <span id = "sum"></span><br>
+        <span id = "percentage"></span><br>
+        <span id = "grade"></span><br>
+        <P></P>
+    </div>
+    <script src="grade.js"></script>
+</body>
+</html>
