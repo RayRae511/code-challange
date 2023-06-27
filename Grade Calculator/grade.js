@@ -1,4 +1,5 @@
 function publishResult(){
+	//it gets all the codes from grade.html IDs and implements them
 	const maths = document.getElementById("maths").value;
 	const english = document.getElementById("english").value;
 	const kiswahili = document.getElementById("kiswahili").value;
@@ -12,7 +13,7 @@ function publishResult(){
 	document.getElementById("sum").innerHTML = `The sum is: ` + total;
 	let percentage = (total * 100) / 800;
 	document.getElementById("percentage").innerHTML = `The Percentage is: ${percentage}%`;
-
+//if else if statments used to determine the total percentage of the given grades and filters them to each respective grades.
 	if(percentage >= 79){
 		document.getElementById("grade").innerHTML = 'You have passed! Your grade is an A! Excellent work! 0w0'
 	}
